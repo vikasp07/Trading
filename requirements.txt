@@ -1,0 +1,10 @@
+yfinance
+pandas
+numpy
+ta
+praw
+youtube-transcript-api
+finnhub-python
+binance
+requests
+python-dotenv

@@ -1,0 +1,24 @@
+cat <<EOF > .gitignore
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Data files
+data/stocks/
+data/crypto/
+data/osint/
+data/merged/
+
+# Model artifacts
+modeling/*.pkl
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+*.log
+EOF
+git add .gitignore
+git commit -m "chore: add .gitignore"
